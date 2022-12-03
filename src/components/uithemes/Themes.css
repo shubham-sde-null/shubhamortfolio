@@ -1,0 +1,61 @@
+.theme {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    top: 0;
+    right: 0;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.themeSelected {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* width: fit-content; */
+    top: 0;
+    right: 0;
+    margin-top: 5rem;
+    margin-right: 1.7rem;
+    border: 1px solid red;
+    padding: 20px 7px;
+    border-radius: 15px;
+}
+
+.themeHided {
+    display: none;
+}
+
+.colorCombination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    padding: 5px;
+    gap: 10px;
+}
+
+.themeSelected .colorCombination .iconDesign1 {
+    color: #13ca91;
+}
+
+.themeSelected .colorCombination .iconDesign2 {
+    color: #b537f2;
+}
+
+.themeSelected .colorCombination .iconDesign3 {
+    color: #ff2079;
+}
+
+.themeSelected .colorCombination .iconDesign4 {
+    color: #f5d300;
+}
+
+.themeSelected .colorCombination .colorName {
+    margin-right: auto;
+    font-size: 0.7rem;
+}
