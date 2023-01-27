@@ -1,6 +1,19 @@
 import React from "react";
 import "./Experience.css";
 import VerifiedIcon from "@mui/icons-material/Verified";
+import { ImHtmlFive } from "react-icons/im";
+import { IoLogoCss3 } from "react-icons/io";
+import { SiJavascript } from "react-icons/si";
+import { DiReact } from "react-icons/di";
+import { SiRedux } from "react-icons/si";
+import { DiBootstrap } from "react-icons/di";
+import { SiMaterialui } from "react-icons/si";
+import { DiNpm } from "react-icons/di";
+import { AiFillGithub } from "react-icons/ai";
+import { IoLogoNodejs } from "react-icons/io";
+import { DiMongodb } from "react-icons/di";
+import { SiFirebase } from "react-icons/si";
+import { DiPython } from "react-icons/di";
 function Experience() {
   return (
     <section id="experience">
@@ -14,43 +27,82 @@ function Experience() {
               <VerifiedIcon className="experience__details-icons" />
               <div>
                 {" "}
-                <h4>HTML</h4>
+                <h4>
+                  HTML <ImHtmlFive />
+                </h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <VerifiedIcon className="experience__details-icons" />
               <div>
-                <h4>CSS</h4>
+                <h4>
+                  CSS <IoLogoCss3 />
+                </h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
               <VerifiedIcon className="experience__details-icons" />
               <div>
-                <h4>Javascript</h4>
+                <h4>
+                  Javascript <SiJavascript />
+                </h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <VerifiedIcon className="experience__details-icons" />
               <div>
-                <h4>React JS</h4>
+                <h4>
+                  React JS <DiReact />
+                </h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <VerifiedIcon className="experience__details-icons" />
               <div>
-                <h4>Bootstrap</h4>
+                <h4>
+                  Redux <SiRedux />
+                </h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <VerifiedIcon className="experience__details-icons" />
               <div>
-                <h4>Material UI</h4>
+                <h4>
+                  Bootstrap <DiBootstrap />
+                </h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <VerifiedIcon className="experience__details-icons" />
+              <div>
+                <h4>
+                  MUI <SiMaterialui />
+                </h4>
                 <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <VerifiedIcon className="experience__details-icons" />
+              <div>
+                <h4>
+                  npm <DiNpm />
+                </h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <VerifiedIcon className="experience__details-icons" />
+              <div>
+                <h4>
+                  GitHub <AiFillGithub />
+                </h4>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
           </div>
@@ -61,24 +113,40 @@ function Experience() {
             <article className="experience__details">
               <VerifiedIcon className="experience__details-icons" />
               <div>
-                <h4>Node Js</h4>
+                <h4>
+                  Node Js <IoLogoNodejs />
+                </h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <VerifiedIcon className="experience__details-icons" />
               <div>
-                <h4>MongoDB</h4>
+                <h4>
+                  MongoDB <DiMongodb />
+                </h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <VerifiedIcon className="experience__details-icons" />
               <div>
-                <h4>Ptyhon</h4>
+                <h4>
+                  Firebase <SiFirebase />
+                </h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <VerifiedIcon className="experience__details-icons" />
+              <div>
+                <h4>
+                  Ptyhon <DiPython />
+                </h4>
                 <small className="text-light">Basic</small>
               </div>
             </article>
+
             {/* <article className="experience__details">
               <VerifiedIcon />
               <h4>React JS</h4>

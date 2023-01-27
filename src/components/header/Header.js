@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import CTA from "./CTA";
-import ME from "../../assests/shubham.jpg";
+import ME from "../../assests/shubhammain.png";
 
 import HeaderSocials from "./HeaderSocials";
 function Header() {
@@ -10,7 +10,7 @@ function Header() {
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>Shubham</h1>
-        <h5 className="text-light">Full Stack Developer</h5>
+        <h5 className="text-light">Full Stack Developer & Software Engineer</h5>
         <CTA />
         <HeaderSocials />
         <div className="me">

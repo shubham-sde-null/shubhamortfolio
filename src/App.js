@@ -6,7 +6,7 @@ import Header from "./components/header/Header";
 import Nav from "./components/nav/Nav";
 import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
-import Testimonial from "./components/testimonials/Testimonial";
+// import Testimonial from "./components/testimonials/Testimonial";
 import Themes from "./components/uithemes/Themes";
 // import Temp from "./components/Temp";
 function App() {
@@ -20,7 +20,7 @@ function App() {
       <Experience />
       <Services />
       <Portfolio />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Contact />
       <Footer />
     </>

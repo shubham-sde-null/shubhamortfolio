@@ -4,7 +4,11 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 function HeaderSocials() {
   return (
     <div className="header__socials">
-      <a href="https://linkedin.com" rel="noopener noreferrer" target="_blank">
+      <a
+        href="https://www.linkedin.com/in/shubhampawardev/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
         <LinkedInIcon />
       </a>
       <a href="https://github.com" rel="noopener noreferrer" target="_blank">

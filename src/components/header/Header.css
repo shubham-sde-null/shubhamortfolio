@@ -92,4 +92,14 @@ header {
     .scroll__down {
         display: none;
     }
+    .me {
+        /* border: 1px solid white; */
+        width: 19rem;
+        height: 20rem;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 3rem;
+        overflow: hidden;
+    }
 }

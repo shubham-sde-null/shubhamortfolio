@@ -40,6 +40,15 @@
     margin-bottom: 1rem;
 }
 
+.videoCont {
+    /* border: 1px solid red; */
+    border-radius: 1rem;
+    padding: 1rem 0rem;
+    display: flex;
+    width: 100%;
+    margin: 0.5rem 0rem;
+}
+
 
 /* media queries for small devices  */
 
@@ -57,5 +66,11 @@
     .portfolio__conatiner {
         grid-template-columns: 1fr;
         gap: 1rem;
+    }
+    .portfolio__item {
+        max-width: 100%;
+    }
+    .portfolio__item-image img {
+        width: 100%;
     }
 }

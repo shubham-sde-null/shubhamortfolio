@@ -40,6 +40,13 @@
     color: var(--color-primary);
 }
 
+.experience__details h4 {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
 
 /* media queries for small devices  */
 
