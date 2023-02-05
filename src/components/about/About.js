@@ -7,12 +7,13 @@ import ME from "../../assests/shubhammain.png";
 import FolderSharedOutlinedIcon from "@mui/icons-material/FolderSharedOutlined";
 import { SiLeetcode } from "react-icons/si";
 import { AiFillGithub } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
 function About() {
   const [windowSize, setWindowSize] = useState(window.innerWidth);
   useEffect(() => {
     function changeTitle() {
       setWindowSize(window.innerWidth);
-      //   console.log("the width is changing:", window.innerWidth);
+      console.log("the width is changing:", window.innerWidth);
     }
     window.addEventListener("resize", changeTitle);
   });
@@ -37,17 +38,39 @@ function About() {
           </span>
         </a>
         <a
-          href="https://github.com/shubham-sde-null"
+          href="https://leetcode.com/shubham-sde-null/"
           target="_blank"
           rel="noopener noreferrer"
           className="coderepoanchor"
         >
-          <span> Github Profile </span>
+          <span>Leetcode Profile </span>
 
           <span className="iconsnew">
             <AiFillGithub />
           </span>
         </a>
+        {windowSize < 600 ? (
+          <a
+            style={{
+              textAlign: "center",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+            href="https://www.linkedin.com/in/shubhampawardev/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="coderepoanchor"
+          >
+            <span> LinkedIn </span>
+
+            <span className="iconsnew">
+              <AiFillLinkedin />
+            </span>
+          </a>
+        ) : (
+          ""
+        )}
       </div>
       <div className="background">
         <h4>Background</h4>

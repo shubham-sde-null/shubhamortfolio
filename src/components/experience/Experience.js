@@ -14,6 +14,7 @@ import { IoLogoNodejs } from "react-icons/io";
 import { DiMongodb } from "react-icons/di";
 import { SiFirebase } from "react-icons/si";
 import { DiPython } from "react-icons/di";
+import { GrMysql } from "react-icons/gr";
 function Experience() {
   return (
     <section id="experience">
@@ -135,6 +136,15 @@ function Experience() {
                   Firebase <SiFirebase />
                 </h4>
                 <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <VerifiedIcon className="experience__details-icons" />
+              <div>
+                <h4>
+                  SQL <GrMysql />
+                </h4>
+                <small className="text-light">Basics</small>
               </div>
             </article>
             <article className="experience__details">
