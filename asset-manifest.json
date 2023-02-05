@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shubhamortfolio/static/css/main.f1e5646a.css",
-    "main.js": "/shubhamortfolio/static/js/main.4b0ac918.js",
+    "main.js": "/shubhamortfolio/static/js/main.f9494c55.js",
     "static/js/787.1ed0c42c.chunk.js": "/shubhamortfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/reactandhookshost.mp4": "/shubhamortfolio/static/media/reactandhookshost.74a42578418c8ec9bb76.mp4",
     "static/media/traveladvisorhost.mp4": "/shubhamortfolio/static/media/traveladvisorhost.67c3455099e1249436e2.mp4",
@@ -19,11 +19,11 @@
     "static/media/project1.png": "/shubhamortfolio/static/media/project1.238456217ed8430e06a7.png",
     "index.html": "/shubhamortfolio/index.html",
     "main.f1e5646a.css.map": "/shubhamortfolio/static/css/main.f1e5646a.css.map",
-    "main.4b0ac918.js.map": "/shubhamortfolio/static/js/main.4b0ac918.js.map",
+    "main.f9494c55.js.map": "/shubhamortfolio/static/js/main.f9494c55.js.map",
     "787.1ed0c42c.chunk.js.map": "/shubhamortfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f1e5646a.css",
-    "static/js/main.4b0ac918.js"
+    "static/js/main.f9494c55.js"
   ]
 }
