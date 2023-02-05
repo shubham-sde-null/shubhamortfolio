@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shubhamortfolio/static/css/main.f1e5646a.css",
-    "main.js": "/shubhamortfolio/static/js/main.f9494c55.js",
+    "main.js": "/shubhamortfolio/static/js/main.fd051b16.js",
     "static/js/787.1ed0c42c.chunk.js": "/shubhamortfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/reactandhookshost.mp4": "/shubhamortfolio/static/media/reactandhookshost.74a42578418c8ec9bb76.mp4",
     "static/media/traveladvisorhost.mp4": "/shubhamortfolio/static/media/traveladvisorhost.67c3455099e1249436e2.mp4",
@@ -13,17 +13,17 @@
     "static/media/snakegamehost.mp4": "/shubhamortfolio/static/media/snakegamehost.751eae6a37273f2d6162.mp4",
     "static/media/tetrisgamehosting.mp4": "/shubhamortfolio/static/media/tetrisgamehosting.8c0b079bcee81405a9b5.mp4",
     "static/media/shubhammain.png": "/shubhamortfolio/static/media/shubhammain.66b262a3ba6e70b43ec1.png",
+    "static/media/shubhamresume1.pdf": "/shubhamortfolio/static/media/shubhamresume1.6bcdc424693bcdde45a3.pdf",
     "static/media/project2.png": "/shubhamortfolio/static/media/project2.1e4447416f2a3b1756fd.png",
     "static/media/project3.png": "/shubhamortfolio/static/media/project3.88ba108430e9204f01ca.png",
-    "static/media/shubhamresume.pdf": "/shubhamortfolio/static/media/shubhamresume.16f0b8a74f9af4e225c8.pdf",
     "static/media/project1.png": "/shubhamortfolio/static/media/project1.238456217ed8430e06a7.png",
     "index.html": "/shubhamortfolio/index.html",
     "main.f1e5646a.css.map": "/shubhamortfolio/static/css/main.f1e5646a.css.map",
-    "main.f9494c55.js.map": "/shubhamortfolio/static/js/main.f9494c55.js.map",
+    "main.fd051b16.js.map": "/shubhamortfolio/static/js/main.fd051b16.js.map",
     "787.1ed0c42c.chunk.js.map": "/shubhamortfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f1e5646a.css",
-    "static/js/main.f9494c55.js"
+    "static/js/main.fd051b16.js"
   ]
 }
