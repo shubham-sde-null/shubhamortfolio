@@ -38,12 +38,12 @@ function About() {
           </span>
         </a>
         <a
-          href="https://leetcode.com/shubham-sde-null/"
+          href="https://github.com/shubham-sde-null"
           target="_blank"
           rel="noopener noreferrer"
           className="coderepoanchor"
         >
-          <span>Leetcode Profile </span>
+          <span>GitHub Profile </span>
 
           <span className="iconsnew">
             <AiFillGithub />
