@@ -15,6 +15,7 @@ import { DiMongodb } from "react-icons/di";
 import { SiFirebase } from "react-icons/si";
 import { DiPython } from "react-icons/di";
 import { GrMysql } from "react-icons/gr";
+import { TbBrandNextjs } from "react-icons/tb";
 function Experience() {
   return (
     <section id="experience">
@@ -57,6 +58,15 @@ function Experience() {
               <div>
                 <h4>
                   React JS <DiReact />
+                </h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <VerifiedIcon className="experience__details-icons" />
+              <div>
+                <h4>
+                  Next JS <TbBrandNextjs />
                 </h4>
                 <small className="text-light">Experienced</small>
               </div>
