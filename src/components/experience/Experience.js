@@ -75,6 +75,15 @@ function Experience() {
               <VerifiedIcon className="experience__details-icons" />
               <div>
                 <h4>
+                  React Native <DiReact />
+                </h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <VerifiedIcon className="experience__details-icons" />
+              <div>
+                <h4>
                   Redux <SiRedux />
                 </h4>
                 <small className="text-light">Experienced</small>

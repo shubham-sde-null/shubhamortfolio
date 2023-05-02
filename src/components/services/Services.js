@@ -87,6 +87,28 @@ function Services() {
             </li>
           </ul>
         </article>
+        <article className="services">
+          <div className="service__head">
+            <h3>App Development</h3>
+          </div>
+          <ul className="service__list">
+            <li>
+              <CheckIcon className="service__list-icons" />
+              <p>
+                I can make cross platform app using React Native for both
+                Android and IOS.
+              </p>
+            </li>
+            <li>
+              <CheckIcon className="service__list-icons" />
+              <p>Maximum code reuse & cost saving.</p>
+            </li>
+            <li>
+              <CheckIcon className="service__list-icons" />
+              <p>Strong performance for mobile environments.</p>
+            </li>
+          </ul>
+        </article>
         {/* <article className="services">
           <div className="service__head">
             <h3>Content Creation</h3>
