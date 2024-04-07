@@ -12,6 +12,8 @@ import { DiNpm } from "react-icons/di";
 import { AiFillGithub } from "react-icons/ai";
 import { IoLogoNodejs } from "react-icons/io";
 import { DiMongodb } from "react-icons/di";
+import { FaDocker } from "react-icons/fa";
+import { DiRedis } from "react-icons/di";
 import { SiFirebase } from "react-icons/si";
 import { DiPython } from "react-icons/di";
 import { GrMysql } from "react-icons/gr";
@@ -23,7 +25,7 @@ function Experience() {
       <h2>My Experience</h2>
       <div className="container experience__container">
         <div className="experience__frontend">
-          <h3>Frontnd Development</h3>
+          <h3>Frontend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
               <VerifiedIcon className="experience__details-icons" />
@@ -146,6 +148,24 @@ function Experience() {
                   MongoDB <DiMongodb />
                 </h4>
                 <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <VerifiedIcon className="experience__details-icons" />
+              <div>
+                <h4>
+                  Docker<FaDocker />
+                </h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <VerifiedIcon className="experience__details-icons" />
+              <div>
+                <h4>
+                  Redis<DiRedis />
+                </h4>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
